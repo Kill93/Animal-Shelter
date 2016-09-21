@@ -1,0 +1,24 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.button {
+    -fx-text-fill: #2A5058;
+    -fx-font-family: "Segoe UI Semibold";
+    -fx-font-weight: bold;
+    -fx-background-color: #FACC2E;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 ); 
+}
+
+.button:hover {
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+    -fx-text-fill: #FACC2E;
+}
+
+.root{
+	-fx-background-color: #585858;
+}
+
+
+.text-area .content{
+    -fx-background-color: transparent ;
+  
+  }
